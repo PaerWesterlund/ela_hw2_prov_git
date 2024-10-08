@@ -1,0 +1,72 @@
+# Python-specifika filer
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+Pipfile.lock
+
+# Distribution/byggfiler
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+MANIFEST
+
+# Installeringsfiler
+*.whl
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# PyInstaller
+# Används för att skapa exekverbara filer för ditt projekt
+*.manifest
+*.spec
+
+# Konfigurationsfiler för IDE:er
+.vscode/
+.idea/
+
+# Loggfiler
+*.log
+
+# Test- och täckningsrapporter
+.coverage
+*.cover
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.coveragerc
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# C Extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Django-omgångar
+*.pot
+*.mo
+
+# Sphinx/Dokumentation byggfiler
+docs/_build/
+
+# Envspecifika filer
+*.env
